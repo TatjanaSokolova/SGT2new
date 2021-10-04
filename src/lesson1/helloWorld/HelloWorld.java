@@ -1,4 +1,4 @@
-package lesson1.elloWorld;
+package lesson1.helloWorld;
 
 import lesson1.helloWorldLibrary.WorldLibrary;
 
