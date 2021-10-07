@@ -2,7 +2,6 @@ package lesson1.helloWorldLibrary;
 
 public class WorldLibrary {
 
-
     private String planetName;
 
     public String getPlanetName() {
