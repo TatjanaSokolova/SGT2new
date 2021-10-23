@@ -1,0 +1,13 @@
+i {
+    color: purple;
+}
+
+#unique-element {
+    background-color: #AABBCA;
+}
+
+.third-class {
+    color: rgba(110,105,255,0.5);
+    font-size: 30;
+    transform: skewY(20%);
+}
