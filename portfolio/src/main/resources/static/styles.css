@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: cursive;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 16px;
+    background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-bottom: 2px solid #FFEFBA;
+}
+
+.first-column {
+    margin-right: auto;
+
+}
+
+.person-name {
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.person-description {
+    font-style: italic;
+}
+
+.person-photo {
+    border-radius: 10px;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.project-container {
+    margin: 16px;
+    max-width: 100px;
+    text-align: center;
+}
+
+.project-image {
+    border-radius: 5px;
+}
+
+.project-name {
+    font-weight: bold;
+}
+
+.project-description {
+    font-style: italic;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 16px;
+    background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-bottom: 2px solid #FFEFBA;
+}
+
+.external-link {
+    color: #777777;
+}
+.external-link:visited {
+    color: #BBBBBB;
+}
