@@ -1,16 +1,16 @@
 body {
     margin: 0;
-    font-family: cursive;
+    font-family: Georgia, cursive;
 }
 
 .header {
     display: flex;
     justify-content: flex-end;
     padding: 16px;
-    background: #FFEFBA;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    border-bottom: 2px solid #FFEFBA;
+    background: #f5c269;  /* fallback for old browsers */
+       background: -webkit-linear-gradient(to right, #fcd797, #f5c269);  /* Chrome 10-25, Safari 5.1-6 */
+       background: linear-gradient(to right, #fcd797, #f5c269); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+       border-bottom: 2px solid #f5c269;
 }
 
 .first-column {
@@ -32,41 +32,23 @@ body {
     border-radius: 10px;
 }
 
-.project-list {
+.table{
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.project-container {
-    display: flex;
-    margin: 16px;
-    max-width: 100px;
-    text-align: center;
-}
-
-.project-image {
-    border-radius: 5px;
-}
-
-.project-name {
-    font-weight: bold;
-}
-
-.project-description {
-    font-style: italic;
+    border-collapse: separate;
 }
 
 .footer {
-    display: flex;
     justify-content: flex-end;
     padding: 16px;
-    background: #FFEFBA;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    border-bottom: 2px solid #FFEFBA;
+    background: #f5c269;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fcd797, #f5c269);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fcd797, #f5c269); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-bottom: 2px solid #f5c269;
+    margin-bottom: 0px;
 }
-
+.author {
+align: left;
+}
 .external-link {
     color: #777777;
 }
