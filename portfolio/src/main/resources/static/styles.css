@@ -39,6 +39,7 @@ body {
 }
 
 .project-container {
+    display: flex;
     margin: 16px;
     max-width: 100px;
     text-align: center;
