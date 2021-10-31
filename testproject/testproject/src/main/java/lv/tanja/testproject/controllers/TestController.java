@@ -16,6 +16,7 @@ public class TestController {
 
     @GetMapping(value = "/test")
     public String getTest() {
+        System.out.println("A test");
         return "This is Test!";
     }
 
@@ -31,7 +32,7 @@ public class TestController {
      * @return
      */
     @GetMapping ( value = "/calculate")
-    public double calculate( double radius ) {
+    public double calculate ( double radius ) {
         return 2*PI*radius;
     }
 
